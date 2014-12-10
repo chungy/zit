@@ -1,0 +1,25 @@
+Zit
+===
+
+Zit is a git-based single-file content tracker.  It allows you to
+track individual files with a backing git store, providing an
+alternative to using https://www.gnu.org/software/rcs[RCS].
+
+Status
+------
+This fork is rather simple: it provides a Makefile and a manual page
+to make this software available in a more typical software manner.
+The original author of Zit declined to incorporate these changes on
+principle of keeping the upstream Zit repository fully functional as a
+repository for itself, as well.
+
+This fork is now effectively *abandoned*.  A new alternative,
+http://www.catb.org/esr/src/[SRC], has emerged, providing a clean user
+interface while retaining RCS as a backend store.  SRC provides a much
+more familiar interface to Subversion, Git, and Mercurial users, and
+the author of this fork considers it entirely superior to Zit.  The
+author having been involved with SRC design since day one has a large
+part to do with this. :-)
+
+Nonetheless, I will keep this fork available publicly on the
+off-chance that somebody finds use out of it.
